@@ -1,0 +1,49 @@
+@import "src/scss/normalize/normalize";
+@import "src/scss/variables/all";
+
+.header{
+  height: 90px;
+  background-color: $color-el;
+  border-bottom: 1px solid $color-main;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  span{
+    font-family: $font-logo;
+    color: $color-letter;
+    font-size: $font-size-logo;
+  }
+}
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  height: 100%;
+}
+.menu__list{
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu__link{
+  font-family: $font-primary;
+  color: $color-letter;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 40px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.menu__link:hover{
+  background: $color-btn;
+}
