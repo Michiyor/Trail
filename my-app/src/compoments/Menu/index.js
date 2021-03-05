@@ -3,7 +3,7 @@ import './styles.scss';
 
 function Menu() {
     return (
-        <header className="header header__container container">
+        <header className="header container header__container ">
             <span>EnduroTrails</span>
             <nav className="menu">
                 <ul className="menu__list">

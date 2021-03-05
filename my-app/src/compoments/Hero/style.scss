@@ -1,6 +1,28 @@
 @import "src/scss/normalize/normalize";
 @import "src/scss/variables/all";
 
+.hero{
+  h2{
+    font-size: $font-size-logo;
+  }
+}
+.hero__navigation{
+
+}
+
+.hero__list{
+  font-family: $font-logo;
+  color: $color-letter;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 .hero__img {
-  display: block;
+  display: flex;
+  justify-content: space-around;
+}
+.decoration{
+  display: flex;
+  right: 0.5em;
 }

@@ -3,67 +3,50 @@
 .footer-container {
   font-family: $font-primary;
   font-size: 2em;
+  max-height: 4em;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  display: block;
   background-color: $color-main;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .footer-div1 {
-  color: white;
-
-  h4 {
-    padding-bottom: 1.3em;
-  }
+  color: $color-letter;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .footer-div2 {
-  color: white;
-  margin-right: 2em;
+  color: $color-letter;
+  padding-right: 2em;
+
   h4 {
     padding-bottom: 0.4em;
   }
 }
 
-.footer-div3 {
-  color: white;
-
   h4 {
     margin-bottom: 1em;
   }
-
-  .footer-input {
-    position: absolute;
-    width: 9em;
-  }
-
-  .footer-button {
-    color: white;
-    background-color: $color-btn;
-    position: relative;
-    transform: translate(9em);
-  }
-
-
-  }
-
-
 .footer--copyright {
-  height: 3em;
+  height: 1.5em;
+  width: 100%;
   background-color: $color-extra;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
 
   .a-copy {
-    color: white;
+    color: $color-letter;
+    font-size: 0.5em;
   }
-  .a-plan{
-    color: $color-extra;
+
+  .a-plan {
+    color: $color-letter;
+    font-size: 0.5em;
+
   }
 }
