@@ -4,6 +4,9 @@
 .hero{
   h2{
     font-size: $font-size-logo;
+    color: $color-letter;
+    display: inline-block;
+    margin-top: 4em;
   }
 }
 .hero__navigation{
@@ -13,16 +16,19 @@
 .hero__list{
   font-family: $font-logo;
   color: $color-letter;
-  text-decoration: none;
+  list-style: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
 }
-.hero__img {
-  display: flex;
-  justify-content: space-around;
+.hero__list-el {
+  &:hover{
+    color: $color-extra;
+  }
 }
-.decoration{
-  display: flex;
-  right: 0.5em;
+.hero__img {
+  display: inline-block;
+  height: 35px;
+  background-color: $color-main;
+
 }
