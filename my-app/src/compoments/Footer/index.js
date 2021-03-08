@@ -1,5 +1,7 @@
-import React from "react";
-import './styles.scss';
+
+
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBicycle} from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
     return (
@@ -19,10 +21,16 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="footer--copyright">
-                <a className="a-copy" href="/">Copyright</a>
-                <a className="a-plan" href="/">EnduroTrails</a>
-            </div>
+            <section id="copyright">
+                <div className="footer--copyright">
+                    <a className="a-copy" href="/">Copyright</a>
+                    <a className="a-plan" href="/">EnduroTrails</a>
+                </div>
+                <div className='iconsAwesome'>
+                    <FontAwesomeIcon icon={faBicycle}/>
+
+                </div>
+            </section>
         </footer>
     );
 }

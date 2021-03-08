@@ -17,7 +17,7 @@ function Hero() {
                             onMouseLeave={() => setBounce(false)}
                             src={icon}
                             alt='settings'
-                            className={`${bounce ? "animate__animated animate__bounceOutRight" : ""} hero__img`}
+                            className={`${bounce ? "animate__animated animate__bounceOutRight " : ""} hero__img`}
                         /></li>
                     <li className="hero__list-el">
                         <img
@@ -107,21 +107,21 @@ function Hero() {
                             onMouseLeave={() => setBounce(false)}
                             src={icon}
                             alt='settings'
-                            className={`${bounce ? "animate__animated animate__bounceOutLeft" : ""} hero__img`}                    />
-                    Rock'n'Roll</li>
+                            className={`${bounce ? "animate__animated animate__bounceOutLeft" : ""} hero__img`}/>
+                        Rock'n'Roll
+                    </li>
                     <li className="hero__list-el">Sahaira
                         <img
-                        onMouseEnter={() => setBounce(true)}
-                        onMouseLeave={() => setBounce(false)}
-                        src={icon}
-                        alt='settings'
-                        className={`${bounce ? "animate__animated animate__bounceOutRight" : ""} hero__img`} />
+                            onMouseEnter={() => setBounce(true)}
+                            onMouseLeave={() => setBounce(false)}
+                            src={icon}
+                            alt='settings'
+                            className={`${bounce ? "animate__animated animate__bounceOutRight" : ""} hero__img`}/>
                     </li>
                 </ul>
             </nav>
         </section>
     );
 }
-
 
 export default Hero;
