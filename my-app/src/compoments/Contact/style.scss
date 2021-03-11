@@ -1,0 +1,32 @@
+@import "src/scss/variables/all";
+
+.all__contact{
+  display: flex;
+  margin: 3em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.film{
+  display: inline-flex;
+}
+
+#contact{
+  display: block;
+  margin: 3em;
+}
+.form__title{
+  font-size: $font-size;
+  font-family: $font-primary;
+  color: $color-extra;
+}
+.form-group{
+  padding: 10px;
+}
+
+.btn-contact{
+  background-color: $color-btn;
+  height: 50px;
+  width: 250px;
+  color: $color-letter;
+}

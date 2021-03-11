@@ -1,0 +1,11 @@
+@import "src/scss/variables/all";
+
+.gallery__container {
+  height: 5em;
+}
+.img__trails{
+  max-height: 6em;
+}
+.carousele__btn{
+  background-color: $color-btn;
+}

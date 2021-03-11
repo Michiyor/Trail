@@ -1,5 +1,5 @@
-
-
+import React from "react";
+import './styles.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBicycle} from '@fortawesome/free-solid-svg-icons'
 

@@ -29,15 +29,17 @@
   }
 }
 
-  h4 {
-    margin-bottom: 1em;
-  }
-  #copyright {
-    display: flex;
-    background-color: $color-extra;
-    justify-content: center;
-    align-items: center;
-  }
+h4 {
+  margin-bottom: 1em;
+}
+
+#copyright {
+  display: flex;
+  background-color: $color-extra;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer--copyright {
   height: 1.5em;
   width: 100%;
@@ -55,8 +57,10 @@
     font-size: 0.5em;
   }
 }
+
 .iconsAwesome {
   background-color: $color-extra;
+
   .fa-bicycle {
     display: flex;
     position: relative;
