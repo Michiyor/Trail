@@ -36,8 +36,8 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
                     }
                     mediaBackgroundStyle={{ backgroundColor: red[400] }}
                     style={{ backgroundColor: red[600] }}
-                    title="Look ath this Trails!"
-                    subtitle="Just using this will blow your mind."
+                    title="Watch out!"
+                    subtitle="You can jump to the water"
                 />
                 <Slide
                     media={
@@ -46,7 +46,7 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
                     mediaBackgroundStyle={{ backgroundColor: blue[400] }}
                     style={{ backgroundColor: blue[600] }}
                     title="Ever wanted to be popular?"
-                    subtitle="Well just mix two colors and your are good to go!"
+                    subtitle="Well just love your hobby and improve skills"
                 />
                 <Slide
                     media={
@@ -55,7 +55,8 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
                     mediaBackgroundStyle={{ backgroundColor: green[400] }}
                     style={{ backgroundColor: green[600] }}
                     title="May the force be with you"
-                    subtitle="The Force is a metaphysical and ubiquitous power in the Star Wars fictional universe."
+                    subtitle="Riding a downhill road you dont have time to watch the viewnpm install react-router-dom
+"
                 />
             </AutoRotatingCarousel>
         </div>
