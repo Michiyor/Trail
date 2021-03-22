@@ -55,8 +55,7 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile }) => {
                     mediaBackgroundStyle={{ backgroundColor: green[400] }}
                     style={{ backgroundColor: green[600] }}
                     title="May the force be with you"
-                    subtitle="Riding a downhill road you dont have time to watch the viewnpm install react-router-dom
-"
+                    subtitle="Riding a downhill road you dont have time to watch the view"
                 />
             </AutoRotatingCarousel>
         </div>
